@@ -30,7 +30,7 @@ End-to-end analysis of a 30,000-record airline flight dataset, from data cleanin
 ├── airline_flight.xlsx               # Raw dataset
 ├── Airline_Flight_Cleaning.ipynb     # Data cleaning, EDA and visualizations (Jupyter/Colab)
 ├── cleaned_airline_flight.csv        # Cleaned dataset (output of the notebook)
-├── airline_dashboard.pbix            # Power BI interactive dashboard
+├── airline dashboard.pbix            # Power BI interactive dashboard
 └── README.md
 ```
 
@@ -39,7 +39,7 @@ End-to-end analysis of a 30,000-record airline flight dataset, from data cleanin
 | Raw data | [airline_flight.xlsx](airline_flight.xlsx) |
 | Cleaning + EDA notebook | [Airline_Flight_Cleaning.ipynb](Airline_Flight_Cleaning.ipynb) |
 | Cleaned data | [cleaned_airline_flight.csv](cleaned_airline_flight.csv) |
-| Power BI dashboard | [airline_dashboard.pbix](airline_dashboard.pbix) |
+| Power BI dashboard | [airline dashboard.pbix](airline%20dashboard.pbix) |
 
 ## Objective
 
@@ -97,7 +97,7 @@ About 7.7% of flights are cancelled, and the rate is similar across airlines. Mo
 
 ## 3. Power BI Dashboard
 
-Interactive dashboard with KPI cards, charts, and filters for airlines, routes, classes, and fares. File: [airline_dashboard.pbix](airline_dashboard.pbix) (open in Power BI Desktop)
+Interactive dashboard with KPI cards, charts, and filters for airlines, routes, classes, and fares. File: [airline dashboard.pbix](airline%20dashboard.pbix) (open in Power BI Desktop)
 
 ## Key Insights
 
@@ -133,18 +133,18 @@ Checks run on the cleaned data that are worth knowing before using it:
 |---|---|---|
 | Data Cleaning | Python, pandas, NumPy | [Airline_Flight_Cleaning.ipynb](Airline_Flight_Cleaning.ipynb) |
 | EDA & Visualization | Matplotlib, Seaborn, Google Colab | [Airline_Flight_Cleaning.ipynb](Airline_Flight_Cleaning.ipynb) |
-| Dashboard | Power BI Desktop (KPI cards, charts, filters) | [airline_dashboard.pbix](airline_dashboard.pbix) |
+| Dashboard | Power BI Desktop (KPI cards, charts, filters) | [airline dashboard.pbix](airline%20dashboard.pbix) |
 
 ## How to Use
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/sravanipulugujju/[ADD-REPO-NAME].git
-   cd [ADD-REPO-NAME]
+   git clone https://github.com/sravanipulugujju/Airline_Flight_Analytics.git
+   cd Airline_Flight_Analytics
    ```
 2. Upload `airline_flight.xlsx` to Google Colab (the notebook reads it from `/content/`)
 3. Run `Airline_Flight_Cleaning.ipynb` to clean the data, run the EDA, and save `cleaned_airline_flight.csv`
-4. Open `airline_dashboard.pbix` in Power BI Desktop to explore the interactive dashboard
+4. Open `airline dashboard.pbix` in Power BI Desktop to explore the interactive dashboard
 
 ## Author
 
